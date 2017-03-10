@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@paravibe  - Home</title>
+        <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="http://paravibe.com/css/app.css" rel="stylesheet">
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-64876388-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
+
+    <body>
+    
+    <div class="fixed-nav" data-magellan-expedition="fixed">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name"><h1><a href="/">@paravibe</a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <li class="divider"></li>
+                    <li data-magellan-arrival="about"><a href="#about">About</a></li>
+                    <li class="divider"></li>
+                    <li data-magellan-arrival="social"><a href="#social">Social</a><li>
+                    <li class="divider"></li>
+                    <li data-magellan-arrival="location"><a href="#location">Location</a><li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+
+    <section class="picture">&nbsp;</section>
+
+    <a name="about"></a>
+    <section data-magellan-destination="about" class="row about content-section">
+        <div class="large-12 columns text-center">
+            <h2>About Me</h2>
+            <p>My name is Max Petyurenko aka @paravibe.</p>
+            <p>I have started my career with PHP and JS in the middle of 2011. My first project was on CodeIgniter</p>
+            <p>After that I switched to Drupal and have been working with it since 2012</p>
+            <p>In 2015, I've started working with Java (Android Apps) and Ruby (Rails)</p>
+            <p>Now I learn <a target="_blank" href="http://laravel.com">Laravel</a> and <a target="_blank" href="https://symfony.com">Symfony2</a> frameworks</p>
+        </div>
+    </section>
+
+    <a name="social"></a>
+    <section data-magellan-destination="social" class="social content-section dark">
+        <div class="row">
+            <div class="large-12 columns text-center">
+                <h2>I am in social networks</h2>
+                <ul class="list-inline">
+                    <li>
+                        <a target="_blank" class="button radius" href="https://github.com/paravibe">
+                            <i class="fa fa-github fa-fw"></i>GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="button radius" href="https://www.drupal.org/user/2277548">
+                            <i class="fa fa-drupal fa-fw"></i>Drupal.org
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="button radius" href="http://ua.linkedin.com/in/paravibe">
+                            <i class="fa fa-linkedin fa-fw"></i>LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="button radius" href="http://stackoverflow.com/users/3183673/paravibe">
+                            <i class="fa fa-stack-overflow fa-fw"></i>StackOverflow
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="button radius" href="https://plus.google.com/100029545305258815278">
+                            <i class="fa fa-google-plus fa-fw"></i>Google+
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="button radius" href="https://www.facebook.com/parav1be">
+                            <i class="fa fa-facebook fa-fw"></i>Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="button radius" href="https://twitter.com/parav1be">
+                            <i class="fa fa-twitter fa-fw"></i>Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <a name="location"></a>
+    <section data-magellan-destination="location" class="location content-section last">
+        <div class="row">
+            <div class="large-12 columns text-center">
+                <h2>Location</h2>
+            </div>
+        </div>
+        <div id="map-canvas"></div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script src="http://paravibe.com/js/modernizr.min.js"></script>
+    <script src="http://paravibe.com/js/vendors.js"></script>
+    <script src="http://paravibe.com/js/app.js"></script>
+    </body>
+
+</html>
